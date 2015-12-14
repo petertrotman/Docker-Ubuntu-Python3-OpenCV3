@@ -16,5 +16,5 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 	
-RUN git clone https://github.com/jayrambhia/Install-OpenCV
+RUN git clone https://github.com/petertrotman/Install-OpenCV
 RUN bash ./Install-OpenCV/Ubuntu/opencv_latest.sh
