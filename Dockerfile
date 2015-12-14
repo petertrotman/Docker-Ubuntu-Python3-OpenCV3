@@ -12,6 +12,7 @@ RUN apt-get update \
         python3-dev \
         python3-pip \
 		git \
+        wget \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 	
